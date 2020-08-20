@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: testingModelClasses.TestFlight
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+testingModelClasses.TestFlight.testGetNoOfPersonMethod()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingModelClasses.TestFlight.testGetNoOfPersonMethod(TestFlight.java:18)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+
+testingModelClasses.TestFlight.testGetRateMethod()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingModelClasses.TestFlight.testGetRateMethod(TestFlight.java:32)
+
+testingModelClasses.TestFlight.testGetClassType()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingModelClasses.TestFlight.testGetClassType(TestFlight.java:46)
+

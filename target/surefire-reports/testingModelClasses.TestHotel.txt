@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: testingModelClasses.TestHotel
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+testingModelClasses.TestHotel.testGetNoOfPersonMethod()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingModelClasses.TestHotel.testGetNoOfPersonMethod(TestHotel.java:17)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+
+testingModelClasses.TestHotel.testGetRateMethod()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingModelClasses.TestHotel.testGetRateMethod(TestHotel.java:31)
+
+testingModelClasses.TestHotel.testGetRoomType()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingModelClasses.TestHotel.testGetRoomType(TestHotel.java:45)
+

@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: testingServiceClasses.TestFareCalculator
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.2 sec <<< FAILURE!
+testingServiceClasses.TestFareCalculator.testBusMethod()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingServiceClasses.TestFareCalculator.testBusMethod(TestFareCalculator.java:54)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+
+testingServiceClasses.TestFareCalculator.testBook()  Time elapsed: 0.193 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingServiceClasses.TestFareCalculator.testBook(TestFareCalculator.java:27)
+
+testingServiceClasses.TestFareCalculator.testFlightMethod()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingServiceClasses.TestFareCalculator.testFlightMethod(TestFareCalculator.java:69)
+
+testingServiceClasses.TestFareCalculator.testTrainMethod()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at testingServiceClasses.TestFareCalculator.testTrainMethod(TestFareCalculator.java:83)
+
